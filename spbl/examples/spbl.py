@@ -1,4 +1,8 @@
 from __future__ import print_function, absolute_import
+
+import sys
+sys.path.append('/home/yzhang/SPBL_Pytorch/spbl')
+
 from reid.models import model_utils as mu
 from reid.utils.data import data_process as dp
 from reid import datasets
